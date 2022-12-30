@@ -1,0 +1,19 @@
+{
+  "name": "consola-clima-geolocalicacion",
+  "version": "1.0.0",
+  "description": "Consola interactiva que utiliza Node JS para usarla en consola junto con 2 APIS (Mapbox Search y OpenWeather)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Pedro Jofre",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "inquirer": "^9.1.4",
+    "uuid": "^9.0.0"
+  }
+}
